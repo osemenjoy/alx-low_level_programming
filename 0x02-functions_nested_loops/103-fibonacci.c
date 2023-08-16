@@ -13,7 +13,7 @@ int main(void)
 
 	while (next <= limit)
 	{
-		next = term1 * term2;
+		next = term1 + term2;
 		if (next % 2 == 0)
 			sum = sum + next;
 		term1 = term2;
